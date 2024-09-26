@@ -70,7 +70,7 @@ public class TestCases {
         driver.get("https://www.flipkart.com/");
         Thread.sleep(3000);
         
-        Wrappers.enterTextWrapper(driver, By.xpath("//input[@title='Search for Products, Brands and More']"), "iphone");
+        Wrappers.enterTextWrapper(driver, By.xpath("//input[@title='Search for Products, Brands and More']"), "iPhone");
         // driver.navigate().refresh();
         
         
@@ -108,7 +108,7 @@ public class TestCases {
         driver.get("http://www.flipkart.com/");
         Thread.sleep(3000);
         
-        Wrappers.enterTextWrapper(driver, By.xpath("//input[@title='Search for Products, Brands and More']"), "Coffe Mug");
+        Wrappers.enterTextWrapper(driver, By.xpath("//input[@title='Search for Products, Brands and More']"), "Coffee Mug");
         Thread.sleep(5000);
         Wrappers.clickOnElementWrapper(driver, By.xpath("(//div[@class='XqNaEv'])[1]"));
         Thread.sleep(5000);
